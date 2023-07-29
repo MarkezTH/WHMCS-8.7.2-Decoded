@@ -1,0 +1,35 @@
+<?php
+
+echo "<form id=\"frmModalClose\" class=\"form-inline modal-form\" method=\"post\" action=\"\">\n    <div class=\"modal fade\" id=\"modalClose\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modalCloseLabel\" aria-hidden=\"true\">\n        <div class=\"modal-dialog\">\n            <div class=\"modal-content panel panel-primary\">\n                <div class=\"modal-header panel-heading\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"";
+echo AdminLang::trans("global.close");
+echo "\">\n                        <span aria-hidden=\"true\">&times;</span>\n                    </button>\n                    <h4 class=\"modal-title\">\n                        ";
+echo AdminLang::trans("disputes.closeDispute");
+echo "                    </h4>\n                </div>\n                <div class=\"modal-body\">\n                    <p>";
+echo AdminLang::trans("disputes.closeDisputeSure1");
+echo "</p>\n                    <p><h2><strong>";
+echo AdminLang::trans("disputes.closeDisputeSure2");
+echo "</strong></h2></p>\n                    <p>";
+echo AdminLang::trans("disputes.closeDisputeSure3");
+echo "</p>\n                </div>\n                <div class=\"modal-footer panel-footer\">\n                    <div class=\"pull-left loader\" id=\"modalCloseLoader\" style=\"display: none\">\n                        <i class=\"fas fa-circle-notch fa-pulse\"></i>\n                        ";
+echo AdminLang::trans("global.loading");
+echo "                    </div>\n                    <button type='button' id='modalCloseKey-cancel' class='btn btn-default' data-dismiss='modal'>\n                        ";
+echo AdminLang::trans("global.no");
+echo "                    </button>\n                    <button type=\"submit\" class='btn btn-primary'>\n                        ";
+echo AdminLang::trans("global.yes");
+echo "                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n</form>\n<form id=\"frmModalSubmit\" class=\"form-inline modal-form\" method=\"post\" action=\"\">\n    <div class=\"modal fade\" id=\"modalSubmit\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modalSubmitLabel\" aria-hidden=\"true\">\n        <div class=\"modal-dialog\">\n            <div class=\"modal-content panel panel-primary\">\n                <div class=\"modal-header panel-heading\">\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"";
+echo AdminLang::trans("global.close");
+echo "\">\n                        <span aria-hidden=\"true\">&times;</span>\n                    </button>\n                    <h4 class=\"modal-title\">\n                        ";
+echo AdminLang::trans("disputes.submitDispute");
+echo "                    </h4>\n                </div>\n                <div class=\"modal-body\">\n                    <p>";
+echo AdminLang::trans("disputes.submitDisputeSure1");
+echo "</p>\n                    <p><h2><strong>";
+echo AdminLang::trans("disputes.submitDisputeSure2");
+echo "</strong></h2></p>\n                    <p>";
+echo AdminLang::trans("disputes.submitDisputeSure3");
+echo "</p>\n                </div>\n                <div class=\"modal-footer panel-footer\">\n                    <div class=\"pull-left loader\" id=\"modalSubmitLoader\" style=\"display: none\">\n                        <i class=\"fas fa-circle-notch fa-pulse\"></i>\n                        ";
+echo AdminLang::trans("global.loading");
+echo "                    </div>\n                    <button type='button' id='modalSubmitKey-cancel' class='btn btn-default' data-dismiss='modal'>\n                        ";
+echo AdminLang::trans("global.no");
+echo "                    </button>\n                    <button type=\"submit\" class='btn btn-primary'>\n                        ";
+echo AdminLang::trans("global.yes");
+echo "                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n</form>\n";
